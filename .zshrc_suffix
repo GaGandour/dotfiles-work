@@ -46,6 +46,9 @@ alias v="nvim"
 # ----- Fast exit from terminal ---
 alias e="exit"
 
+# ----- Fast clear ---
+alias c="clear"
+
 # ----- mkdir + cd -----
 mkcd() {
     mkdir -p "${1}"
@@ -83,3 +86,6 @@ export PATH="/opt/homebrew/anaconda3/bin:$PATH"
 
 # ----- lazygit ---
 alias lg="lazygit"
+
+# ----- slack mcp ---
+export SLACK_MCP_ADD_MESSAGE_TOOL=true

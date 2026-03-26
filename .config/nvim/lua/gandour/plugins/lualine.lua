@@ -9,7 +9,7 @@ return {
 		lualine.setup({
 			options = {
 				-- theme = my_lualine_theme,
-				theme = "catppuccin-frappe",
+				theme = "catppuccin-latte",
 				component_separators = "│",
 				section_separators = "",
 			},
