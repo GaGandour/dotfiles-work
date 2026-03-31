@@ -87,5 +87,6 @@ export PATH="/opt/homebrew/anaconda3/bin:$PATH"
 # ----- lazygit ---
 alias lg="lazygit"
 
-# ----- slack mcp ---
-export SLACK_MCP_ADD_MESSAGE_TOOL=true
+# ----- claude code --
+alias cc="claude"
+
