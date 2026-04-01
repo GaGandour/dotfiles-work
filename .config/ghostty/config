@@ -12,3 +12,5 @@ background-opacity = 0.8
 background-blur = 15
 
 cursor-style = bar
+
+mouse-scroll-multiplier = precision:0.3,discrete:3
