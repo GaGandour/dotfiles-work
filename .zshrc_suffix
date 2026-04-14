@@ -90,3 +90,5 @@ alias lg="lazygit"
 # ----- claude code --
 alias cc="claude"
 
+# ----- go to aic --
+cd ~/Workspaces/Nubank/ai-core
