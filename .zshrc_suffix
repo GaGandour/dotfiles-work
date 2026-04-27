@@ -90,3 +90,5 @@ alias lg="lazygit"
 # ----- claude code --
 alias cc="claude"
 
+bindkey -M viins '^?' backward-delete-char
+bindkey -M viins '^W' backward-kill-word
