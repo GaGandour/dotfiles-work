@@ -116,7 +116,8 @@ alt-8 = 'workspace 8'
 alt-9 = 'workspace 9'
 # In your config, you can drop workspace bindings that you don't need
 alt-b = 'workspace B' # Browser
-alt-c = 'workspace C' # Claude Chat
+alt-c = 'workspace C' # Claude Code
+alt-g = 'workspace G' # Codex
 alt-f = 'workspace F' # Finder
 alt-m = 'workspace M' # Music
 alt-o = 'workspace O' # Obsidian
@@ -139,6 +140,7 @@ alt-shift-9 = 'move-node-to-workspace 9'
 alt-shift-b = 'move-node-to-workspace B'
 alt-shift-c = 'move-node-to-workspace C'
 alt-shift-f = 'move-node-to-workspace F'
+alt-shift-g = 'move-node-to-workspace G'
 alt-shift-m = 'move-node-to-workspace M'
 alt-shift-o = 'move-node-to-workspace O'
 alt-shift-p = 'move-node-to-workspace P'
@@ -162,16 +164,20 @@ if.app-id = 'com.google.Chrome'
 run = "move-node-to-workspace B"
 
 [[on-window-detected]]
-if.app-id = 'com.anthropic.claudefordesktop'
-run = "move-node-to-workspace C"
-
-[[on-window-detected]]
 if.app-id = 'com.todesktop.230313mzl4w4u92'
 run = "move-node-to-workspace C"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
 run = "move-node-to-workspace F"
+
+[[on-window-detected]]
+if.app-id = 'com.anthropic.claudefordesktop'
+run = "move-node-to-workspace C"
+
+[[on-window-detected]]
+if.app-id = 'com.openai.codex'
+run = "move-node-to-workspace G"
 
 [[on-window-detected]]
 if.app-id = 'md.obsidian'
